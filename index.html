@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+
+
+    <div class="main-container">
+        
+            
+        
+        <div class="container">
+            <!-- ---------------------header------------------- -->
+            <div class="header">
+                <h2>calc</h2>
+                <div class="theme">
+                    <p class="p1">THEME</p>
+                    <div class="chg-theme">
+                        <div class="One23">
+                            <p id="one">1</p>
+                            <p id="two">2</p>
+                            <p id="three">3</p>
+                        </div>
+                        <div class="toggle">
+                            <div class="red-point" id="suraj"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- ---------------------header End------------------- -->
+            <!-- ---------------------Screen ------------------- -->
+
+            <div class="screen">
+                <form class="input-screen" name="calc">
+                    <input type="text" id="screen"  readonly class="input" name="txt">
+                </form>
+            </div>
+            <!-- ---------------------Screen End------------------- -->
+
+            <div class="key">
+                <span class="keys" onclick="document.calc.txt.value += '7'">7</span>
+                <span class="keys" onclick="document.calc.txt.value += '8'">8</span>
+                <span class="keys" onclick="document.calc.txt.value += '9'">9</span>
+                <span class="keys " id="del" onclick="del()">DEL</span>
+                <span class="keys" onclick="document.calc.txt.value += '4'">4</span>
+                <span class="keys" onclick="document.calc.txt.value += '5'">5</span>
+                <span class="keys" onclick="document.calc.txt.value += '6'">6</span>
+                <span class="keys" onclick="document.calc.txt.value += '+'">+</span>
+                <span class="keys" onclick="document.calc.txt.value += '1'">1</span>
+                <span class="keys" onclick="document.calc.txt.value += '2'"> 2</span>
+                <span class="keys" onclick="document.calc.txt.value += '3'">3</span>
+                <span class="keys" onclick="document.calc.txt.value += '-'">-</span>
+                <span class="keys" onclick="document.calc.txt.value += '.'">.</span>
+                <span class="keys" onclick="document.calc.txt.value += '0'">0</span>
+                <span class="keys" onclick="document.calc.txt.value += '/'">/</span>
+                <span class="keys" onclick="document.calc.txt.value += '*'">x</span>
+                <span class="keys colspan1" id="colspan1" onclick="calc.txt.value = ''" >RESET</span>
+                <span class="keys colspan2" id="colspan2" onclick="document.calc.txt.value = eval(calc.txt.value)" >=</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------------------------------------------THEME2s--------------------------------------------------------------------- -->
+
+
+    
+
+
+    
+    <script src="./js/calculator.js"></script>
+</body>
+</html>

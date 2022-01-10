@@ -1,0 +1,28 @@
+@media (max-width:900px){
+    .container{
+    
+        width: 300px;
+    }
+    .screen input{
+        margin-top: 8px;
+        border-radius: 8px;
+        height: 75px;
+        font-size: 20px;
+        
+    }
+    .key{
+        border-radius: 8px;
+        margin-top: 15px;
+        padding: 15px;
+        grid-gap: 15px;
+    }
+    .key .keys{
+        padding: 12px 10px;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+    #del, #colspan1{
+        font-size: 12px;
+    }
+    
+}
