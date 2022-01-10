@@ -1,1 +1,1 @@
-View the Calculator: https://mouryasuraj.github.io/SimpleCalculator/
+View the calculator: https://mouryasuraj.github.io/SimpleCalculator/
