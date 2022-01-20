@@ -177,7 +177,9 @@ audio{
 
 /*    -------------header End------------- */
 
-
+span:active{
+    filter: brightness(1.5);
+}
 
 
 /*    -------------Screen Start------------- */
